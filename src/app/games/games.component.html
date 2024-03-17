@@ -1,0 +1,8 @@
+<h3>Top Tier Games of {{ username }}</h3>
+<ul>
+    @for (game of games; track game.id) {
+        <li (click)="fav(game.name)">{{game.name}}</li>
+    }
+</ul>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias maiores ratione magni vel minima autem eligendi, dicta repellendus neque velit porro soluta perferendis consequuntur error magnam, reiciendis architecto temporibus iste.</p>
+ <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas sapiente non placeat eligendi blanditiis nostrum architecto, facilis fugit impedit beatae, temporibus molestias qui aperiam deserunt, ipsa nam quod earum porro!</p>
